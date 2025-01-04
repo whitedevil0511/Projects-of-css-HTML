@@ -1,0 +1,141 @@
+*{
+    padding: 0; margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;padding-right: 50px;
+    box-sizing: content-box;
+    border-bottom: rgb(209, 47, 101);
+}
+.logo{
+    margin: 5px;
+    padding: 5px;
+    height: 100px;
+    width: 100px;
+
+}
+.links{
+    display: flex;
+    min-width: 500px;
+    justify-content: space-evenly;
+ 
+}
+.links a{
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: .3px;
+    color: rgb(0, 26, 255);
+}
+.links a:hover{
+    color: mediumslateblue;
+    border-bottom: 1px solid brown;
+}
+.links a:active{
+    color: red;
+}
+.search{
+    min-width: 40px;
+    width: 30%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+     
+}
+.search_icon{
+    box-sizing: content-box ;
+    height: 20px;
+    padding: 10px;
+    border-radius: 4px 0 0 4px;
+    background-color: aliceblue;
+
+}
+.text{
+    text-align: justify;
+    color: darkslategray;
+    background-color:whitesmoke;
+    border-radius: 0px 5px 5px 0px;
+    flex-grow: 1;
+    height: 40px;
+    border-color: whitesmoke;
+    border: 0px;
+}
+.action{
+    display: flex;
+    min-width: 200px;
+    justify-content: space-between;
+}
+.actionicons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+.banner{
+    margin: 40px 0;
+}
+.banner img{
+    min-width: 100%;
+}
+.category{
+    display: flex;
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px ;
+    max-height: 5em;
+    font-weight: 700;
+}
+.kulfi{
+    display: flex;
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px ;
+    max-height: 5em;
+    font-weight: 700;
+    
+}
+.kulfi{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.sale_item{
+    width: 250px;
+}
+.footercontainer{
+    
+    padding: 20px 0px 40px 0px;
+    background-color: #fafbfc;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer_col{
+    display: flex;
+    flex-direction: column;
+}
+.footer_col h3{
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+.footer_col a{
+    color: #696b79;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+    justify-content: left;
+}
+.copy{
+    display: flex;
+    text-align: left;
+    padding: 15px;
+    color: #6c6d77;
+}
